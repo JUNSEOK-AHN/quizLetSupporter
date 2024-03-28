@@ -1,0 +1,7 @@
+.word {
+    cursor: pointer;
+}
+
+.selected {
+    background-color: coral;
+}
