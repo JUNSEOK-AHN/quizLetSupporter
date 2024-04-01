@@ -1,3 +1,8 @@
+textarea {
+	display: block;
+	width: 99%;
+	margin: auto;
+}
 .word {
     cursor: pointer;
 }
