@@ -9,6 +9,16 @@ const generateBtn = document.querySelector('#generateBtn');
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 */
+
+textArea.value = '';
+
+textArea.addEventListener('paste', () => {
+  if (textArea.value !== '') {
+    textArea.value += '\n';
+  }
+});
+
+
 btn.addEventListener("click", () => {
   textDiv.innerText = textArea.value;
 
