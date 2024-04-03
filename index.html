@@ -1,25 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Document</title>
 </head>
 <body>
-    <!-- This is a comment -->
-    
-    <textarea name="textArea" id="textArea" autofocus></textarea>
-    <br>
-    <button id="btn">ok</button>
-    <div id="textDiv"></div>
-    <br><br><br>
-    <button id="generateBtn">ok</button>
 
+	<div id="container">
+		<textarea id="textArea" autofocus></textarea>
 
-
-
-    <!-- This is a comment -->
-    <script type="module" src="main.js"></script>
+		<button id="btn" class="bigBtn">generate</button>
+		
+		<div id="textDiv"></div>
+		
+		<button id="generateBtn" class="bigBtn">complete</button>
+	
+		<div class="inputShell">
+			<input id="selectAll" type="text" placeholder="select, all, words, at, once">
+			<button id="selectAllBtn" class="smallBtn">OK</button>
+		</div>
+	
+		<div class="inputShell">
+			<input id="addTerm" type="text" placeholder="what will you add to the term?">		
+			<button id="addTermBtn" class="smallBtn">OK</button>		
+		</div>
+	</div>
+	
+	<script type="module" src="main.js"></script>
 </body>
 </html>
