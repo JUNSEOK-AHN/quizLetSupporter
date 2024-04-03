@@ -1,12 +1,70 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	box-sizing: border-box;
+}
+body {
+	width: 100vw;
+	height: 100vh;
+	box-sizing: border-box;
+}
 textarea {
 	display: block;
-	width: 99%;
+	margin: auto;
+	width: 90%;
+	height: 6rem;
+}
+input {
+	margin: .5rem auto;
+	width: 80%;
+	height: 20px;
+	font-size: 15px;
+}
+#container {
+	display: block;
+	box-sizing: border-box;
+	height: 100%;
+	overflow:visible;
+	margin: 0 1rem;
+	padding-top: .5rem;
+}
+#textDiv {
+	margin: 1rem auto;
+	height: 39rem;
+	overflow: scroll;
+}
+.bigBtn {
+	display: block;
+	width: 40%;
+	min-width: 10rem;
+	max-width: 30rem;
+	height: 1.6rem;
+	margin: 1rem auto;
+	text-transform: uppercase;
+	letter-spacing: .2rem;
+	cursor: pointer;
+}
+.smallBtn {
+	cursor: pointer;
+	width: 10%;
+}
+.inputShell {
+	width: 100%;
+	max-width: 50rem;
 	margin: auto;
 }
+
+
+
 .word {
     cursor: pointer;
 }
 
 .selected {
-    background-color: coral;
+    background-color: cornflowerblue;
+}
+.notSelected {
+	background-color: coral;
 }
